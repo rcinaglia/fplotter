@@ -1,0 +1,1 @@
+gcc -O0 -Wall -Wextra -g -o plotter plotter.c `sdl2-config --cflags --libs` -lSDL2_ttf -lm && ./plotter
